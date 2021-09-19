@@ -1,0 +1,89 @@
+/*:root {
+    --colorFav: blueviolet;
+    --marginNormal: 5rem;
+}
+/* clase 
+.Mi-Titulo {
+    color: var(--colorFav);
+    margin: var(--marginNormal);
+    font-family: 'Tangerine', monospace;
+}
+.Mi-Titulo:hover {
+    text-decoration: underline;
+    color:green;
+    font-size: 3rem;
+}
+
+.Mi-Titulo:after {
+    content:"!!!!";
+}
+/* id
+#id {
+    color:6, 15, 31;
+}
+/* elemento 
+html {
+    background-color:aquamarine;
+}
+
+.mi-boton{
+    padding:0.8rem;
+    background-color:rgb(140, 140, 189);
+    color:darkblue;
+    font-weight: 450;
+    border-radius: 75;
+    margin-right: 0.5rem;   
+}
+
+.mi-boton:hover {
+    background-color:burlywood;
+}
+
+.li-item::marker {
+    list-style-type: circle;
+    color:coral;
+}
+.links {
+    color:cadetblue;
+    text-decoration:none ;
+}*/
+.body {
+    font-size: 1rem;
+    font-family: monospace;
+}
+.title {
+    text-align: center;
+}
+.label {
+    display: block;
+
+}
+input, select, textarea {
+    font-size: 100%;
+    width: 100%;
+}
+input{
+    height:3rem;
+}
+.container{
+    width:40;
+    margin:1.2rem auto;
+}
+.logo{
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+.button {
+    background-color: rgb(169, 89, 89); 
+    color: white;
+    padding: 1.2rem 2rem;
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+
+.button:hover {
+    background-color: rgb(44, 43, 43); 
+
+}
