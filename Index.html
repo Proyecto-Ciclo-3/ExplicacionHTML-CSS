@@ -7,11 +7,12 @@
         <!--<link rel="stylesheet" href="/reset.css"> -->
         <link rel="stylesheet" href="/Styles.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link href="./Styles.css" rel="stylesheet"/>
         <title>CSS</title>
     </head>
     <body class="body">
         <header class="container">
-            <h2 class="title">Login</h2>
+            <h2 class="title">Pentagonum Login</h2>
         </header>
         <div>
             <img src="./Media/Logo.jpg" alt="logo" class="logo">
@@ -37,13 +38,13 @@
                 <h5>Esto es un título h5</h5>
                 <h6>Esto es un título h6</h6>
                 <a href="https://www.metal-archives.com/bands/Diabolical_Blast/3540402302">
-                    <img src= "./Media/NuevoLogo.jpg" alt="Imagen Logo"/>
+                    <img class="imagenPequeña" src= "./Media/NuevoLogo.jpg" alt="Imagen Logo"/>
                 </a>
                     <a href="https://www.metal-archives.com/albums/Iron_Maiden/Killers/74">No Hacer Click Aquí</a>
                     <h3>Lista Ordenada</h3>
                     <ol>
-                        <li>Elemento 1</li>
-                        <li>Elemento 2</li>
+                        <li class="textoGris fondoAmarillo textoGrandeNegrita">Elemento 1</li>
+                        <li class="textoAzul fondoRojo">Elemento 2</li>
                         <li>Elemento 3</li>
                         <li>Elemento 4</li>
                         <li>Elemento 5</li>
@@ -56,33 +57,54 @@
                         <li>Elemento 4</li>
                         <li>Elemento 5</li>
                     </ul>
-                    <div>
+                    <div class="textoGrandeNegrita">
                         Esto es un div
                     </div>
                 <article>
                     <h3>Párrafo 1</h3>
-                    <p>Esto es un párrafo Lorem ipsum dolor sit amet,
+                    <p class="parrafoGris parrafoAngosto">
+                        Esto es un párrafo Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </p>
                     <h3>Párrafo 2</h3>
-                    <p>Esto es otro párrafo Lorem ipsum dolor sit amet,
+                    <p class="parrafoNegro textoAzul parrafoPadding parrafoAngosto">
+                        Esto es otro párrafo Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </p>
                     <h3>Párrafo 3</h3>
-                    <p>Esto es un párrafo más Lorem ipsum dolor sit amet,
+                    <p id="parrafo3" class="parrafoAngosto">
+                        Esto es un párrafo más Lorem ipsum dolor sit amet,
                         consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </p>
                     <span>Esto es un texto corto</span>
-                </article>
-                
+                </article>     
             </section>
-            <section>Tabla con la info</section>
+            <section>
+                <div class="contenedorConMargen">
+                    <div>Div 1</div>
+                    <div>Div 2</div>
+                    <div>Div 3</div>
+                </div>
+                <div class="contenedorDivsFlex">
+                    <div>Div 1</div>
+                    <div>Div 2</div>
+                    <div>Div 3</div>
+                </div>
+                <div  class="contenedorDivsGrid">
+                <div class="divTest">Div1</div>
+                <div class="divTest">Div2</div>
+                <div class="divTest">Div3</div>
+                <div class="divTest">Div4</div>
+                <div class="divTest">Div5</div>
+                <div class="divTest">Div6</div>
+                <div class="divTest">Div7</div>
+                <div class="divTest">Div8</div>
+                <div class="divTest">Div9</div>
+                </div>
+            </section>
         </main>
         <footer>
             Este es el footer de contacto
